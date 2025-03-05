@@ -3,41 +3,14 @@
 @section('content')
     @include('common.frontend.header')
         <!-- Contact Start -->
+        <?php
+            $websiteDetails = App\Models\WebsiteDetail::Where('id', '1')->first();
+        ?>
         <div class="container-fluid py-5">
             <div class="container py-5">
                 <div class="p-5 bg-light rounded">
                     <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
                         <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Contact Us</h4>
-                        <h1 class="display-3">Contact For Any Query</h1>
-                    </div>
-                    <div class="row g-5 mb-5">
-                        <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="d-flex w-100 border border-primary p-4 rounded bg-white">
-                                <i class="fas fa-map-marker-alt fa-2x text-primary me-4"></i>
-                                <div class="">
-                                    <h4>Address</h4>
-                                    <p class="mb-2"> 104 Ludhiana, India</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="d-flex w-100 border border-primary p-4 rounded bg-white">
-                                <i class="fas fa-envelope fa-2x text-primary me-4"></i>
-                                <div class="">
-                                    <h4>Mail Us</h4>
-                                    <p class="mb-2">Support@pathedi.com</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                            <div class="d-flex w-100 border border-primary p-4 rounded bg-white">
-                                <i class="fa fa-phone-alt fa-2x text-primary me-4"></i>
-                                <div class="">
-                                    <h4>Telephone</h4>
-                                    <p class="mb-2"> +91‐6284927770</p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <div class="row g-5">
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">

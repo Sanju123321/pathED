@@ -1,0 +1,26 @@
+# Ignore environment files
+.env
+
+# Ignore vendor and node_modules directories
+/vendor/
+/node_modules/
+
+# Ignore logs and caches
+/storage/logs/
+bootstrap/cache/
+
+# Ignore IDE/editor files
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore compiled files
+/public/storage
+/public/hot
+/public/mix-manifest.json
+/public/assets/

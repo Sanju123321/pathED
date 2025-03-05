@@ -21,7 +21,7 @@
               <div class="mb-3">
                 <img alt="LOGO" src="{{ asset('backend/images/logo.png') }}" style="height: 81px;width: 83px;border-radius: 47px;">
               </div>
-              <form method="post" enctype="multipart/form-data" autocomplete="off">
+              <form method="POST" enctype="multipart/form-data" autocomplete="off">
                 @csrf
                 <div class="mb-3">
                     <label for="firstName" class="form-label">First Name</label>
